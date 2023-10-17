@@ -47,4 +47,4 @@ And write it in:
 statcli     ALL=(ALL)   NOPASSWD: free, lsb_release, lscpu, top, cat, nstat, groups 
 ```
 With this, statcli will be able to run everything with root rights and only the free (etc...) without password.
-The all commands will require a password !
+The others commands would require a password !
