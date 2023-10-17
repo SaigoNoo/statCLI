@@ -131,3 +131,4 @@ if __name__ == '__main__':
     arg.add_argument('--network', '-n', help="Get informations about your NIC (nstat & netplan)", action='store_true')
     arg.add_argument('--users', '-u', help="Get informations about users in the system", action='store_true')
     stats = Statistics(socket.execute_command, arg.parse_args())
+    socket.close
