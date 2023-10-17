@@ -2,7 +2,6 @@
 *Control your server over SSH with a CLI*
 
 ## What is statCLI
-___
 StatCLI is a script writed in Python. It use the known library **Paramiko**, who
 allow to do some actions on a host over the SSH protocol. The main idea here is to
 access to your server, run commands, return the results as strings to this script and
@@ -10,7 +9,6 @@ have a *kind* of monitoring tool.
 
 ### **This script hasn't been released to be officaly released as a public tool. It has been done for my school to show my skills for a test. If you love the idea, feel free to use it but credit me please !**
 ## Install the requirments:
-___
 Used library:
 - paramiko
 ```bash
@@ -18,7 +16,6 @@ pip3 install -r requirments.txt
 ```
 
 ## **Use the script:**
-___
 It's realy easy:
 ```text
 usage: main.py [-h] [--all] [--ram] [--os] [--cpu] [--network] [--users]
@@ -36,7 +33,6 @@ options:
 ```
 
 ## Why some commands don't return anything or a right error ?
-___
 It's because the user I writed in the credentials file is a user with privileges and without password need.
 If you want, create a user on UNIX / Linux:
 ```bash
